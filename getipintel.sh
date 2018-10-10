@@ -21,7 +21,7 @@ ipcheck() {
   if [[ "$flag" = 'proxyvpn' ]]; then
     flagopt='&flags=b'
   elif [[ "$flag" = 'proxyvpn-badipcheck' ]]; then
-    flagopt=""
+    flagopt="&oflags=b"
   fi
 
   if [[ "$mode" = 'quick' ]]; then
